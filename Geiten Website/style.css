@@ -1,0 +1,56 @@
+body{
+    background-color: green;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar{
+    background-color: darkgreen;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.nav-bar a {
+    color: #F5F5F5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  
+.algemeen-context h2{
+    color: #fff;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F5F5DC;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F5F5DC;
+}
+
+p{
+    display: block;
+    max-width: 70ch; /* beperk de breedte tot 80 tekens */
+    margin: 0 auto;
+    color: #F5F5DC;
+}
+
+a{
+    color: #F5F5DC;
+}
